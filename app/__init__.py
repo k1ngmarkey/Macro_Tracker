@@ -1,0 +1,1 @@
+"""Macro Tracker application package."""
