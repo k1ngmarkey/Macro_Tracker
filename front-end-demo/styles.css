@@ -1,0 +1,123 @@
+/*This controls the styling of the page's items*/
+body {
+    background-color: black;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 16px
+}
+.nav-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+}
+.meal-input-label{
+    font-family: Pix32;
+    color: #4AF626;
+    text-align: left;
+    font-size: 24px;
+}
+
+.meal-input {
+    font-family: Pix32;
+    color: #4AF626;
+    text-align: left;
+    font-size: 24px;
+    background-color: black;
+    border-color: #4AF626;
+}
+
+.square-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 0; /* Removes default rounded corners */
+    border: 1px solid #4AF626;
+    background-color: black;
+    cursor: pointer;
+    font-family: Pix32;
+    color: #4AF626;
+    text-align: center;
+    font-size: 24px;
+}
+
+.small-btn{
+    width: 50px;
+    height: 30px;
+    border-radius: 0; /* Removes default rounded corners */
+    border: 1px solid #4AF626;
+    background-color: black;
+    cursor: pointer;
+    font-family: Pix32;
+    color: #4AF626;
+    text-align: center;
+    font-size: 24px;
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 10px; /* Adds spacing between boxes */
+    margin-top: 5px
+    }
+h1 {
+    font-family: Pix32;
+    color: #4AF626;
+    text-align: left;
+    font-size: 24px;
+}
+h2 {
+    font-family: Pix32;
+    color: #4AF626;
+    text-align: left;
+    font-size: 24px;
+}
+h3 {
+    font-family: Pix32;
+    color: #4AF626;
+    text-align: left;
+    font-size: 24px;
+}
+
+h4 {
+    font-family: Pix32;
+    color: #4AF626;
+    text-align: Right;
+    font-size: 24px;
+}
+
+p {
+    font-family: Pix32;
+    color: #4AF626;
+    text-align: right;
+    font-size: 24px;
+}
+
+ol {
+    font-family: Pix32;
+    font-size: 24px;
+    color: #4AF626;
+}
+
+ul{
+    font-family: Pix32;
+    font-size: 24px;
+    color: #4AF626; 
+}
+
+hr{
+    color:#4AF626;
+    
+}
+.interactive-img {
+    width: 64px;
+    height: auto;
+    image-rendering: crisp-edges;
+}

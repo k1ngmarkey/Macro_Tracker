@@ -1,0 +1,91 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>Bits &amp; Bytes</h1>
+                <button id="homeBtn" class="nav-btn">
+                    <img src="Assets/Home.png" class="interactive-img">
+                    <h1>Home</h1>
+                </button>
+                <!--
+                <button id="viewBtn" class="nav-btn">
+                    <img src="Assets/view.png" class="interactive-img">
+                    <h1>View Days</h1>
+                </button> -->
+                <button id="addBtn" class="nav-btn">
+                    <img src="Assets/add.png" class="interactive-img">
+                    <h1>Track a meal</h1>
+                </button>
+                <button id="recipeBtn" class="nav-btn">
+                    <img src="Assets/Fire.png" class="interactive-img">
+                    <h1>New Recipe</h1>
+                </button>
+
+            </nav>
+            <hr>
+        </header>
+        <section id="home-page">
+            <h1>&gt; Home</h1>
+            <h2 id="home-cals"> &gt; Calories: </h2>
+            <h2 id="home-p"></h2>
+            <h2 id="home-f"></h2>
+            <h2 id="home-c"></h2>
+            <section>
+                <h2>&gt; Last week</h2>
+                <h3 id="day1"></h3>
+                <h4 id="day1-cal"></h4>
+                <p id="day1-mac"></p>
+                <h3 id="day2"></h3>
+                <h4 id="day2-cal"></h4>
+                <p id="day2-mac"></p>
+                <h3 id="day3"></h3>
+                <h4 id="day3-cal"></h4>
+                <p id="day3-mac"></p>
+                <h3 id="day4"></h3>
+                <h4 id="day4-cal"></h4>
+                <p id="day4-mac"></p>
+                <h3 id="day5"></h3>
+                <h4 id="day5-cal"></h4>
+                <p id="day5-mac"></p>
+                <h3 id="day6"></h3>
+                <h4 id="day6-cal"></h4>
+                <p id="day6-mac"></p>
+                <h3 id="day7"></h3>
+                <h4 id="day7-cal"></h4>
+                <p id="day7-mac"></p>
+            </section>
+        </section>
+        <section id="add-page">
+            <h1>Add</h1>
+            <label for="search" class="meal-input-label">Search:</label>
+            <input type="text" id="search-input" name="search" class="meal-input">
+            <button type="button" id="search-btn" class="square-btn">Search</button>
+            <ul id="item-list"></ul>
+        </section>
+        <!--
+        <section id="view-page">
+            <h1>View</h1>
+        </section>-->
+        <section id="recipe-page">
+            <h1>Recipe</h1>
+            <label for="recipe-name" class="meal-input-label">Name:</label>
+            <input type="text" id="name-input" name="recipe-name" class="meal-input">
+            <label for="cal" class="meal-input-label">Calories:</label>
+            <input type="text" id="cal-input" name="cal" class="meal-input">
+            <label for="pro" class="meal-input-label">Protein:</label>
+            <input type="text" id="pro-input" name="pro" class="meal-input">
+            <label for="carb" class="meal-input-label">Carbs:</label>
+            <input type="text" id="carb-input" name="carb" class="meal-input">
+            <label for="fat" class="meal-input-label">Fat:</label>
+            <input type="text" id="fat-input" name="fat" class="meal-input">
+            <button type="button" id="add-recipe" class="square-btn">Add Recipe</button>
+        </section>
+    </body>
+</html>
+
