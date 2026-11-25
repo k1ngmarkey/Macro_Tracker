@@ -84,7 +84,7 @@ function barProgressDisplay(max, val){
     if(count > 20){
         count = 20;
     }
-    return '[' + '#'.repeat(count) + '.'.repeat(20 - count) + '] '
+    return '[' + '#'.repeat(count) + '.'.repeat(3*(20 - count)) + '] '
 }
 function displayHome(){
     calsTotal.textContent = 'CAL ' + barProgressDisplay(goals.cal, cals) + cals + '/' + goals.cal;
@@ -139,12 +139,12 @@ const search_btn = document.getElementById('search-btn');
 const results = document.getElementById("item-list");
 
 search_btn.addEventListener('click', () => {
-    item = search_txt.value
-    search_txt.value = ''
+    item = search_txt.value;
+    search_txt.value = '';
 
     //Call the backend to search through all the items with this string and return them as a list/array
     list = ['Chicken', 'Fried chicken', 'Grilled Chicken'];
-    renderList(list)
+    renderList(list);
 });
 
 function renderList(items){
